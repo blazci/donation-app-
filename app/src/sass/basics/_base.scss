@@ -1,0 +1,7 @@
+@import '../settings/fonts';
+@import '../settings/colors';
+
+.container-fluid{
+  font-family: $font-base;
+  color: $font-color-base;
+}

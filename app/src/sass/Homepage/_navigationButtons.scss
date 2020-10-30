@@ -1,0 +1,27 @@
+@import '../settings/colors';
+
+.navContainer{
+  padding-right: 142px;
+  a{
+   &:hover{
+     cursor: pointer;
+     text-decoration: none;
+   }
+  }
+  .loginBtn {
+    color: $font-color-bleached;
+    font-size: 13px;
+    &:last-child{
+      border: 1px solid #f1f115;
+      padding: 10px;
+    }
+  }
+  .navOptions {
+    color: $font-color-base;
+    font-size: 18px;
+    &:first-child{
+      border: 1px solid $font-color-base;
+      padding: 10px 20px ;
+    }
+}
+}

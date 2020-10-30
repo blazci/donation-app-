@@ -1,0 +1,19 @@
+.large-btn-container{
+  margin-top: 50px;
+  padding: 0 100px;
+  .largeBtn{
+    box-sizing: border-box;
+    border: 1px solid #3C3C3C;
+    text-decoration: none;
+    color: #3C3C3C;
+    font-size: 28px;
+    text-align: center;
+    padding: 5px 0 ;
+    &:hover {
+      cursor: pointer;
+      text-decoration: none;
+      color: #3C3C3C;
+    }
+  }
+}
+
