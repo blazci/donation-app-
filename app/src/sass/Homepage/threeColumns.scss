@@ -1,0 +1,19 @@
+@import '../settings/colors';
+@import '../settings/fonts';
+.three-col-container{
+  background-image: url("../../assets/3 Columns Background@2x.png");
+  padding: 0 ;
+}
+.column-container{
+  h3{
+    font-size: 90px;
+    color: #5E5322;
+  }
+  h4{
+    font-size: 20px;
+    color: $font-color-base;
+  }
+  p{
+    font-family: $font-alt;
+  }
+}

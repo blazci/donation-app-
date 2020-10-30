@@ -1,0 +1,15 @@
+@import '../settings/colors';
+.happy-img-container {
+  background-image: url("../../assets/People.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.aboutUs-description-container {
+  border: 1px solid red;
+  p{
+    padding: 0 200px;
+    font-size: 30px;
+    color: $font-color-base;
+  }
+}

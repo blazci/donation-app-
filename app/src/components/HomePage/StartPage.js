@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {Navigation} from "./Navigation";
 import {StartHelping} from "./StartHelping";
+import {ThreeColumns} from "./ThreeColumns";
 
 export class StartPage extends Component {
     render() {
@@ -8,7 +9,6 @@ export class StartPage extends Component {
             <div className='container-fluid'>
                 <Navigation/>
                 <StartHelping/>
-
             </div>
         )
     }

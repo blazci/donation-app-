@@ -1,0 +1,49 @@
+@import '././../settings/colors';
+
+.four-steps-container {
+  margin-top: 60px;
+  padding: 0 120px;
+.decoration-bar{
+  margin-bottom: 60px;
+}
+  img {
+    margin-bottom: 10px;
+  }
+
+  .four-steps-columns-container {
+    background-color: #F0F1F1;
+    padding: 100px 18%;
+
+    .four-steps-column {
+      padding: 0 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 10px 10px;
+
+      p {
+        line-height: 17px;
+        font-size: 16px;
+        margin-top: 10px;
+      }
+    }
+
+  }
+}
+
+.line {
+  height: 1px;
+  margin-top: 10px;
+  background-color: $font-color-base;
+  width: 40%;
+}
+.four-steps-button {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  p{
+    padding: 10px 50px;
+    line-height: 30px;
+    margin-bottom: 0;
+    color: $font-color-base;
+  }
+}
