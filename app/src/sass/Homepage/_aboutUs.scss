@@ -2,14 +2,23 @@
 .happy-img-container {
   background-image: url("../../assets/People.jpg");
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
 }
 .aboutUs-description-container {
-  border: 1px solid red;
+  padding: 180px;
+  background-color: #F0F1F1;
+  h3{
+    margin-bottom: 30px;
+  }
   p{
     padding: 0 200px;
     font-size: 30px;
     color: $font-color-base;
+    margin-top: 60px;
   }
+  .signature-container{
+    padding-right: 150px;
+    padding-top: 30px;
+  }
+
 }

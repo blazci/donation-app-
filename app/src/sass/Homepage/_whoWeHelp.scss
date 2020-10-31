@@ -1,0 +1,53 @@
+@import '../settings/colors';
+@import '../settings/fonts';
+.whoWeHelp-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: $font-color-base 1px solid ;
+  line-height: 25px;
+  font-size: 24px;
+  height: 70px;
+  padding: 0 30px;
+}
+.whoWeHelp-container{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h2{
+    margin-top: 40px;
+  }
+  img{
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+  .whoWeHelp-description{
+    font-size: 22px;
+    padding: 0 650px;
+    margin-top: 40px;
+  }
+  .whoWeHelp-organizations-container{
+    margin-top: 50px;
+    padding: 20px 150px;
+    font-family: $font-alt;
+    p{
+      font-size: 15px;
+    }
+    .whoWeHelp-singleOrg-container{
+      border-bottom: 1px solid $font-color-base;
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+    }
+  }
+  .pageBtn {
+    text-decoration: none;
+    border: 1px solid $font-color-base;
+    color: $font-color-base;
+    padding: 13px 13px;
+    margin-right: 10px;
+    &:hover{
+      cursor: pointer;
+    }
+  }
+}

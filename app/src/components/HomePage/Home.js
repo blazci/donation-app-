@@ -6,6 +6,8 @@ import {ThreeColumns} from "./ThreeColumns";
 import {FourSteps} from "./FourSteps";
 import {ActionButton} from "./ActionButton";
 import {AboutUs} from "./AboutUs";
+import {WhoWeHelp} from "./WhoWeHelp";
+import {ContactUs} from "./ContactUs";
 export class Home extends Component {
 
     render() {
@@ -22,6 +24,8 @@ export class Home extends Component {
                 <ThreeColumns/>
                 <FourSteps/>
                 <AboutUs/>
+                <WhoWeHelp/>
+                <ContactUs/>
             </div>
         )
     }

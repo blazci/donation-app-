@@ -1,0 +1,16 @@
+@import '../settings/colors';
+@import '../settings/fonts';
+.contactUs-container{
+  background-image: url("../../assets/Background-Contact-Form.jpg");
+ .contactUs-form-container{
+   border: 1px solid red;
+
+   .input-label{
+     text-align: left;
+   }
+   img{
+     margin-bottom: 45px;
+   }
+ }
+
+}
