@@ -3,6 +3,7 @@ import {Navigation} from "./Navigation";
 import {StartHelping} from "./StartHelping";
 import {ThreeColumns} from "./ThreeColumns";
 
+
 export class StartPage extends Component {
     render() {
         return(

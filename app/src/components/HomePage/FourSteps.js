@@ -4,11 +4,12 @@ import shirt from '../../assets/Icon-1.svg';
 import bag from '../../assets/Icon-2.svg';
 import loupe from '../../assets/Icon-3.svg';
 import circle from '../../assets/Icon-4.svg';
+import {BrowserRouter, Link} from "react-router-dom";
 
 export class FourSteps extends Component {
     render() {
         return(
-            <div className='container-fluid p-0  text-center four-steps-container'>
+            <div className='container-fluid p-0  text-center four-steps-container' id='fourSteps'>
                 <h3 className='  p-3 text-center'>Wystarczą 4 proste kroki</h3>
                 <img className='decoration-bar' src={decorationBar}/>
                 <div className='row m-0 justify-content-around col-12 four-steps-columns-container'>
@@ -38,11 +39,14 @@ export class FourSteps extends Component {
                     </div>
                 </div>
                 <div className='row justify-content-center m-0 p-0 '>
-                    <a>
-                        <div className='largeBtn four-steps-button text-center '>
-                            <p>ODDAJ <br/> RZECZY </p>
-                        </div>
-                    </a>
+                    <BrowserRouter>
+                        <Link to='/login' style={{textDecoration:'none'}}>
+                            <div className='largeBtn four-steps-button text-center '>
+                                <p>ODDAJ <br/> RZECZY </p>
+                            </div>
+                        </Link>
+                    </BrowserRouter>
+
                 </div>
 
 

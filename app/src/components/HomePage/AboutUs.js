@@ -6,7 +6,7 @@ import decorationBar from '../../assets/Decoration.svg';
 export class AboutUs extends Component {
     render() {
         return (
-            <div className='m-0 p-0 container-fluid '>
+            <div className='m-0 p-0 container-fluid' id='aboutUs'>
                 <div className='row p-0 m-0'>
                     <div className='col text-center aboutUs-description-container'>
                          <h3>O nas</h3>

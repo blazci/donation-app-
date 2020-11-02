@@ -1,10 +1,13 @@
 import React, {Component} from 'react';
+import {BrowserRouter, Link} from "react-router-dom";
 
 export class ActionButton extends Component {
 
     render() {
-        return(
-            <a className={`m-3   ${this.props.class}`}>{this.props.text}</a>
+        return(<BrowserRouter>
+            <Link to={`/${this.props.link} `}className={`m-3   ${this.props.class}`}>{this.props.text}</Link>
+        </BrowserRouter>
+
         )
     }
 }

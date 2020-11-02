@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import decorationBar from '../../assets/Decoration.svg';
 import {ActionButton} from "./ActionButton";
+import {BrowserRouter, Link} from "react-router-dom";
 
 export class StartHelping extends Component {
 
@@ -11,22 +12,22 @@ export class StartHelping extends Component {
                 <p>Oddaj niechciane rzeczy w zaufane ręce</p>
                 <img src={decorationBar}/>
             <div className='large-btn-container row'>
-                <div className='col-6  '>
-                   <a>
-                       <div className='largeBtn '>
-                           ODDAJ <br/> RZECZY
-                       </div>
-                   </a>
-               </div>
-                <div className='col-6'>
-                    <a>
-                        <div className='largeBtn' >
-                            ZORGANIZUJ <br/> ZBIÓRKĘ
-                        </div>
-                    </a>
-                </div>
-
-
+                  <BrowserRouter>
+                      <div className='col-6'>
+                          <Link to='/login' style={{textDecoration: 'none'}}>
+                              <div className='largeBtn'>
+                                  ODDAJ <br/> RZECZY
+                              </div>
+                          </Link>
+                      </div>
+                      <div className='col-6'>
+                          <Link to='/login' style={{textDecoration: 'none'}}>
+                              <div className='largeBtn'>
+                                  ZORGANIZUJ <br/> ZBIÓRKĘ
+                              </div>
+                          </Link>
+                      </div>
+                  </BrowserRouter>
 
             </div>
             </div>

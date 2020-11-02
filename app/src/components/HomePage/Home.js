@@ -8,6 +8,7 @@ import {ActionButton} from "./ActionButton";
 import {AboutUs} from "./AboutUs";
 import {WhoWeHelp} from "./WhoWeHelp";
 import {ContactUs} from "./ContactUs";
+import {Link} from 'react-router-dom';
 export class Home extends Component {
 
     render() {

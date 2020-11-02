@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: $font-color-base 1px solid ;
+  border: none ;
   line-height: 25px;
   font-size: 24px;
   height: 70px;
@@ -40,12 +40,16 @@
       margin-bottom: 20px;
     }
   }
+  .active-page-btn{
+    font-weight: bold;
+  }
   .pageBtn {
     text-decoration: none;
     border: 1px solid $font-color-base;
     color: $font-color-base;
     padding: 13px 13px;
     margin-right: 10px;
+    margin-bottom: 40px;
     &:hover{
       cursor: pointer;
     }
