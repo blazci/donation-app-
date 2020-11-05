@@ -17,6 +17,7 @@
     "react-scripts": "4.0.0",
     "react-scroll": "^1.8.1",
     "reset-css": "^5.0.1",
+    "validator": "^13.1.17",
     "web-vitals": "^0.2.4"
   },
   "scripts": {

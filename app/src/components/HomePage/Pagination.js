@@ -7,7 +7,9 @@ export class Pagination extends Component {
      return (
          <div>
              {this.createNrArr().map(e => {
-              return    <a key={e}  onClick={() => this.handleClick(e) } className='pageBtn'>{e}</a>
+              return    <a key={e}   onClick={() => this.handleClick(e) }
+                           style={{fontWeight: this.props.currentPage === e && 'bold'}}
+                           className='pageBtn'>{e}</a>
                  }
              )}
          </div>
